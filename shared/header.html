@@ -1,0 +1,43 @@
+<div class="primary-nav">
+    <button href="#" class="hamburger open-panel nav-toggle">
+        <span class="screen-reader-text">Menu</span>
+    </button>
+	<nav role="navigation" class="menu">
+		<a href="/" class="logotype">NOTION<span>WIDGETS</span></a>
+		<div class="overflow-container">
+			<ul class="menu-dropdown">
+				<li><a href="/dashboard">Dashboard</a><span class="icon"><i class="fa fa-dashboard"></i></span></li>
+				<li class="menu-hasdropdown">
+					<a href="#">Analytics</a><span class="icon"><i class="fa-sharp fa-solid fa-magnifying-glass-chart"></i></span>
+					<label title="toggle menu" for="analysis">
+                        <span class="downarrow"><i class="fa fa-caret-down"></i></span>
+                    </label>
+					<input type="checkbox" class="sub-menu-checkbox" id="analysis" />
+					<ul class="sub-menu-dropdown">
+						<li><a href="/analysis/btc.html">Bitcoin (BTC)</a></li>
+						<li><a href="/analysis/eth.html">Ethereum (ETH)</a></li>
+						<li><a href="/analysis/bnb.html">BNB (BNB)</a></li>
+					</ul>
+				</li>
+                <li class="menu-hasdropdown">
+					<a href="#">Tickers</a><span class="icon"><i class="fa-solid fa-chart-simple"></i></span>
+					<label title="toggle menu" for="tickers">
+                        <span class="downarrow"><i class="fa fa-caret-down"></i></span>
+                    </label>
+					<input type="checkbox" class="sub-menu-checkbox" id="tickers" />
+					<ul class="sub-menu-dropdown">
+						<li><a href="/tickers/btc.html">Bitcoin (BTC)</a></li>
+						<li><a href="/tickers/eth.html">Ethereum (ETH)</a></li>
+						<li><a href="/tickers/bnb.html">BNB (BNB)</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Favorites</a><span class="icon"><i class="fa fa-heart"></i></span></li>
+				<li><a href="#">Messages</a><span class="icon"><i class="fa fa-envelope"></i></span></li>
+			</ul>
+		</div>
+	</nav>
+</div>
+
+<div class="new-wrapper">
+	<div id="main">
+		<div id="main-contents">

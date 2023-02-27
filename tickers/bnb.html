@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>BNBUSD Crypto Analysis</title>
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+        <!-- Custom Scripts -->
+        <script src="/scripts/templates.js" type="text/javascript"></script>
+        <!-- CSS -->
+        <link rel="stylesheet" href="/styles/main.css" />
+    </head>
+    <body>
+        <div id="header"></div>
+        <input type="text" id="CopyUrl" value="https://goveteth.github.io/tickers/widget/bnb.html" disabled="true" />
+        <button onclick="copyToClipboard('#CopyUrl')">Copy Widget Link</button>
+        <hr/>
+        <code>
+            <!-- TradingView Widget BEGIN -->
+            <div class="tradingview-widget-container">
+                <div class="tradingview-widget-container__widget"></div>
+                <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/ETHUSD/?exchange=COINBASE" rel="noopener" target="_blank"><span class="blue-text">Ethereum price</span></a> by TradingView</div>
+                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-overview.js" async>
+                {
+                    "symbols": [
+                    [
+                        "BNB",
+                        "BINANCEUS:BNBUSD|1D"
+                    ]
+                    ],
+                    "chartOnly": false,
+                    "width": 1000,
+                    "height": 500,
+                    "locale": "en",
+                    "colorTheme": "dark",
+                    "autosize": false,
+                    "showVolume": false,
+                    "hideDateRanges": false,
+                    "hideMarketStatus": false,
+                    "hideSymbolLogo": false,
+                    "scalePosition": "right",
+                    "scaleMode": "Normal",
+                    "fontFamily": "-apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif",
+                    "fontSize": "10",
+                    "noTimeScale": false,
+                    "valuesTracking": "1",
+                    "changeMode": "price-and-percent",
+                    "chartType": "line"
+                }
+                </script>
+            </div>
+            <!-- TradingView Widget END -->
+        </code>
+        <hr/>
+        <input type="text" id="CopyUrl" value="https://goveteth.github.io/tickers/widget/bnb.html" disabled="true" />
+        <button onclick="copyToClipboard('#CopyUrl')">Copy Widget Link</button>
+        <div id="footer"></div>
+    </body>
+</html>
